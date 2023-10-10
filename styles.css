@@ -1,0 +1,122 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-Weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #989D9C;
+    cursor: pointer;    
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 21px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.container-right {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    margin-bottom: 183px;
+    display: inline-block;
+}
+
+.container-left {
+    display: inline-block;
+    margin-left: 100px;
+    position: absolute;
+}
+
+h1 {
+    color: #515151;    
+    font-size: 100px;
+    font-weight: 900;
+    line-height: normal;   
+}
+
+h2{
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main {
+    border-radius: 30px;
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        display: none;
+    }
+
+    .container-right {
+        width: 354px;
+        height: 317px;
+        margin: 140px 22px 24px 16px;
+    }
+
+    .container-left {
+        text-align: center;
+        display: block;
+        position: absolute;
+        margin-left: 61px;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 52px;
+        width: 263px;
+        text-align: center;
+        font-weight: 900px;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 500px;
+        margin-bottom: 17px;
+    }
+
+    p {
+        display: none;
+    }
+}
